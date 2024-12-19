@@ -1,0 +1,121 @@
+export const Data = {
+  projects: [
+    {
+      id: 1,
+      title: "Bergen Guide",
+      category: "Agency Directory",
+      myrole: "API Development & UI Optimization",
+      tech: "HTML, CSS, JavaScript, React, Node, MongoDb, Git, GitHub, CI, CD and Docker etc.",
+      date: "2018",
+      url: "https://xn--byrguiden-72a.no/",
+      description: `Byråguiden is a website that helps people find the right agency for their needs. 
+          It provides information on how to compare agencies, choose the best one for your project, 
+          and get quotes from multiple agencies. This makes it easy to find the right agency for your
+           project and get started quickly.`,
+      images: ["assets/img/portfolio/app-1.jpg"],
+    },
+    {
+      id: 2,
+      title: "Skrap",
+      category: "Construction Services",
+      myrole: "Backend Development and API Integration",
+      date: "2016",
+      tech: "HTML, CSS, JavaScript, Angular, Python, Django, MySQL, REST API etc.",
+      url: "https://www.skrap.co.uk/home",
+      description: `Skrap is a construction platform that connects contractors with suppliers, offering services like skip hire, grab hire, and waste management.`,
+      images: ["assets/img/portfolio/app-2.jpg"],
+    },
+    {
+      id: 3,
+      title: "MD Art Galleries",
+      category: "Art Marketplace",
+      myrole: "Custom Plugin Development and Theme Customization",
+      date: "2021",
+      tech: "Wordpress, JavaScript, CSS, API, PHP, Laravel, SQL, Theme Development and Plugin Customization etc.",
+      url: "https://mdartgalleries.com/",
+      description:
+        "MD Art Galleries is a marketplace for local artists to sell archival prints of their art. All images on this site have been professionally digitized from the original art and proofed for color accuracy by the artist. We do the printing and fulfillment so our artists can do what they do best.. Create art!",
+      images: ["assets/img/portfolio/app-3.jpg"],
+    },
+    {
+      id: 4,
+      title: "Remar SOS",
+      category: "Humanitarian Services",
+      myrole: "UI/UX Design and Frontend Development",
+      tech: "Figma, Drupal, JavaScript, CSS, API, PHP, Laravel, SQL etc.",
+      date: "2021",
+      url: "https://remar-sos.org/",
+      description: `This is a document about Remar S.O.S, a humanitarian aid organization. It discusses their mission, work, and impact. Remar S.O.S responds to immediate emergencies around the world by quick mobilization to provide humanitarian aid. They are dedicated to making a lasting impact by working towards sustainable solutions that empower individuals and communities. Through their volunteer involvement and collaboration with other organizations, they create positive and enduring change in the lives of those they serve.`,
+      images: ["assets/img/portfolio/app-4.jpg"],
+    },
+    {
+      id: 5,
+      title: "Drive Well Driving School",
+      category: "Education Services",
+      myrole: "Landing Page Development and WooCommerce Setup",
+      tech: "HTML5, WordPress, Landing Page, WooCommerce, Elementor and WordPress Plugin etc",
+      date: "2018",
+      url: "https://www.drivewelldrivingschool.com/",
+      description: `A comprehensive driving school based in Loudoun County, Virginia, offering
+ both online driver's education courses and practical behind-the-wheel training for teens and adults.
+  Our certified instructors focus on fostering safe driving habits and providing personalized lessons to
+   ensure students gain confidence and competence behind the wheel.`,
+      images: ["assets/img/portfolio/app-5.jpg"],
+    },
+    {
+      id: 6,
+      title: "Trustile",
+      category: "Building Materials",
+      myrole: "Shopify Store Setup and Customization",
+      tech: "Shopify, UI/UX, E-commerce, Shopify Theme Development, Shopify App Development etc.",
+      date: "2020",
+      url: "https://www.trustile.com/",
+      description: `Specializing in high-quality, custom interior and exterior doors, Trustile offers a wide range
+ of stylish and durable door designs for residential and commercial spaces. Their products are crafted with 
+ precision and attention to detail, transforming the look and feel of any home or building.`,
+      images: ["assets/img/portfolio/app-6.jpg"],
+    },
+    {
+      id: 7,
+      title: "Dollar Flight Club",
+      category: "Travel Services",
+      myrole: "Full-Stack Development and Deployment",
+      tech: `Full-Stack Development, Docker,
+            Next.js,
+            TypeScript,
+            Node.js,
+            Amazon Web Services,
+            ExpressJS,
+            JavaScript,
+            React and
+            Redux etc.`,
+      date: "2023",
+      url: "https://dollarflightclub.com/",
+      description: `A subscription-based service that helps travelers save money on flights by sending personalized
+  alerts for discounted domestic and international flights. Members can set their home airports and dream destinations
+   to receive notifications about flight deals up to 90% off, helping them explore the world without breaking the bank.`,
+      images: ["assets/img/portfolio/app-7.jpg"],
+    },
+    {
+      id: 8,
+      title: "Logical Buildings",
+      category: "Energy Management",
+      myrole: "API Integration and Energy Management Solutions Development",
+      tech: ` Full-Stack Development,
+            API Integration,
+            Vue.js,
+            Laravel,
+            Docker,
+            TypeScript,
+            Amazon Web Services,
+            MySQL,
+            JavaScript and,
+            Nuxt etc.`,
+      date: "2023",
+      url: "https://logicalbuildings.com/",
+      description: `Specializing in smart building and energy management solutions, Logical Buildings offers innovative software tools that help building owners and residents reduce energy consumption, lower costs, and achieve sustainability goals.
+ Their GridRewards app rewards users for reducing energy usage during peak times, contributing to a greener environment.`,
+      images: ["assets/img/portfolio/app-8.jpg"],
+    },
+  ],
+};
